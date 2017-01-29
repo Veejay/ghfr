@@ -6,7 +6,7 @@ jsonframe($); 																// initializes the plugin
 
 var frame = {
     "post": { 																// setting the parent item as "companies"
-        "selector": ".topic-list", 												// defines the elements to search for
+        "selector": ".topic-list", 											// defines the elements to search for
         "data": [{
             "name": ".title",
             "description": "",
@@ -19,4 +19,4 @@ var frame = {
 };
 
 var postsList = $('.topic-list').scrape(frame);
-console.log(postsList); 												// Output the data in the terminal
+console.log(postsList); 												    // Output the data in the terminal
